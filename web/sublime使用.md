@@ -13,6 +13,7 @@
         }
         ```
     使用快捷方式：
+    
     [alt+c] : commit current file.
     [alt+u] : update current file.
     [alt+r] : revert current file.
