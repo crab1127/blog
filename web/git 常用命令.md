@@ -1,12 +1,14 @@
-git init                                                  # 初始化本地git仓库（创建新仓库）
-git config --global user.name "xxx"                       # 配置用户名
-git config --global user.email "xxx@xxx.com"              # 配置邮件
-git config --global color.ui true                         # git status等命令自动着色
-git config --global color.status auto
-git config --global color.diff auto
-git config --global color.branch auto
-git config --global color.interactive auto
-git config --global --unset http.proxy                    # remove  proxy configuration on git
+#git常用命令
+
+git init                                                  # 初始化本地git仓库（创建新仓库）  
+git config --global user.name "xxx"                       # 配置用户名  
+git config --global user.email "xxx@xxx.com"              # 配置邮件  
+git config --global color.ui true                         # git status等命令自动着色  
+git config --global color.status auto   
+git config --global color.diff auto   
+git config --global color.branch auto  
+git config --global color.interactive auto   
+git config --global --unset http.proxy                    # remove  proxy configuration on git  
 git clone git+ssh://git@192.168.53.168/VT.git             # clone远程仓库
 git status                                                # 查看当前版本状态（是否修改）
 git add xyz                                               # 添加xyz文件至index
